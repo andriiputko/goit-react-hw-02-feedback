@@ -1,6 +1,8 @@
+import cl from "./Notification.module.css"
+
 const Notification = ({message}) => {
     return (
-        <p>{message}</p>
+        <p className={cl.message}>{message}</p>
     )
 }
 

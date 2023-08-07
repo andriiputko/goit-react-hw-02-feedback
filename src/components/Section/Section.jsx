@@ -1,5 +1,7 @@
+import cl from "./Section.module.css"
+
 const Section = ({ title, children }) => {
-  return (<section>{children}</section>)
+  return (<section className={cl.section}>{children}</section>)
 };
 
 export default Section;
